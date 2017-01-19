@@ -1,3 +1,7 @@
+/*Notes*/
+/*#278727 #55AA55*/
+/*#55AA55 #278727*/
+
 /*
 * Template Name: Unify - Responsive Bootstrap Template
 * Version: 1.9.2
@@ -19,7 +23,7 @@ html {
 }
 
 a {
-  color: #e74c3c;
+  color: #278727;
   text-decoration: none;
 }
 a,
@@ -32,17 +36,17 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color: #e74c3c;
+  color: #278727;
   text-decoration: underline;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #e74c3c;
+  background: #278727;
 }
 ::selection {
   color: #fff;
-  background: #e74c3c;
+  background: #278727;
 }
 
 .clear {
@@ -73,8 +77,8 @@ a:hover {
   }
 }
 
-.g-color-default { color: #e74c3c;}
-.g-bg-default { background: #e74c3c;}
+.g-color-default { color: #278727;}
+.g-bg-default { background: #278727;}
 
 .g-color-white { color: #fff;}
 
@@ -261,7 +265,7 @@ a:hover {
   line-height: 35px;
   display: block;
   background: #fff;
-  color: #e74c3c;
+  color: #278727;
   transition: all 0.3s ease-in-out;
 }
 .g-social-icons-v2 a:hover {
@@ -269,7 +273,7 @@ a:hover {
   color: #fff;
 }
 .g-social-icons-v2 a i {
-  color: #e74c3c;
+  color: #278727;
 }
 .g-social-icons-v2 a:hover i {
   color: #fff;
@@ -297,7 +301,7 @@ a:hover {
 }
 .g-heading-v8 h2 strong,
 .g-heading-v8 .h2 strong {
-  color: #ee4136;
+  color: #55AA55;
 }
 @media(max-width: 500px) {
   .g-heading-v8 h2,
@@ -362,7 +366,7 @@ a:hover {
 .capitalise { text-transform: uppercase;}
 
 .g-bg-default-color {
-  background: #e74c3c;
+  background: #278727;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -483,7 +487,7 @@ a:hover {
   position: absolute;
   top: 100%;
   font-weight: bold;
-  color: #e74c3c;
+  color: #278727;
   content: attr(data-hover);
   transform: translate3d(0, 0, 0);
   transition: color .4s;
@@ -503,7 +507,7 @@ a:hover {
 .one-page-header.top-nav-collapse .dropdown-menu > .active > a span[data-hover],
 .one-page-header.top-nav-collapse .dropdown-menu > .active > a:hover span[data-hover],
 .one-page-header.top-nav-collapse .dropdown-menu > .active > a:focus span[data-hover] {
-  color: #e74c3c;
+  color: #278727;
   transform: translate3d(0, 0, 0);
 }
 @media (max-width: 991px) {
@@ -515,7 +519,7 @@ a:hover {
   .one-page-header .navbar-nav > li > a:hover span[data-hover] {
     transform: translate3d(0, 0, 0);
     transition: color .3s;
-    color: #e74c3c;
+    color: #278727;
     font-weight: bold;
   }
 }
@@ -733,7 +737,7 @@ a:hover {
 }
 .one-page-header.navbar-default .navbar-toggle:hover .icon-bar,
 .one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {
-  background: #e74c3c;
+  background: #278727;
 }
 
 /* Discount Section BEGIN */
@@ -763,7 +767,7 @@ a:hover {
 }
 .get-discount h2 strong,
 .get-discount .h2 strong {
-  color: #e74c3c;
+  color: #278727;
 }
 .get-discount .sky-form {
   box-shadow: none;
@@ -806,7 +810,7 @@ a:hover {
   transition: background 0.1s ease-in-out;
 }
 .special-purposes-item:hover .special-purposes-item-info {
-  background: rgba(231,76,60,.8);
+  background: #55AA55;
 }
 .special-purposes-item:hover .special-purposes-item--big .special-purposes-item-info,
 .special-purposes-item--big .special-purposes-item-info {
@@ -815,7 +819,7 @@ a:hover {
   right: auto;
   padding: 20px 30px;
   padding-bottom: 60px;
-  background: #e74c3c;
+  background: #278727;
 }
 .special-purposes-item-info-inner {
   position: absolute;
@@ -846,7 +850,7 @@ a:hover {
 .special-purposes-item-info-price {
   font-weight: bold;
   font-size: 11px;
-  background: #e74c3c;
+  background: #278727;
   display: inline-block;
   padding: 10px;
 }
@@ -860,7 +864,7 @@ a:hover {
   padding: 5px;
 }
 .special-purposes-item--big .special-purposes-item-info-price strong {
-  color: #e74c3c;
+  color: #278727;
 }
 .special-purposes-item__more,
 .popular-tours-item__more,
@@ -921,7 +925,7 @@ a:hover {
   display: inline-block;
 }
 .popular-tours-item-info-price strong {
-  color: #e74c3c;
+  color: #278727;
 }
 /* Popular Tours Section END */
 
@@ -970,7 +974,7 @@ a:hover {
 
 .contact-section h3,
 .contact-section .h3 {
-  color: #ee4136;
+  color: #55AA55;
   font-style: 26px;
   margin: 15px 0 30px;
 }
@@ -1023,7 +1027,7 @@ a:hover {
   margin: 0;
 }
 .testimonials .ms-info-position {
-  color: #ee4136;
+  color: #55AA55;
   margin: 0 0 15px;
   font-size: 10px;
 }
@@ -1043,7 +1047,7 @@ a:hover {
   margin-right: 0;
 }
 .our-service-info {
-  background: #ee4136;
+  background: #55AA55;
   color: rgba(255,255,255,.8);
   padding-bottom: 50px;
 }
@@ -1082,8 +1086,8 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 .our-services-list-item:hover {
-  background: #ee4136;
-  box-shadow: inset 5px 0 10px #bd332b;
+  background: #55AA55;
+  box-shadow: inset 5px 0 10px #0E650E;
 }
 .our-services-list-item h3 {
   color: #fff;
@@ -1107,7 +1111,7 @@ a:hover {
 .our-service-section .owl-next {
   width: 45px;
   height: 45px;
-  background: #ee4136;
+  background: #55AA55;
   color: #fff;
   position: absolute;
   display: inline-block;
@@ -1186,7 +1190,7 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 .our-tours-list-item:hover {
-  background: #ee4136;
+  background: #55AA55;
 }
 .our-tours-list-item .img-wrapper {
   margin-bottom: 20px;
@@ -1214,7 +1218,7 @@ a:hover {
 }
 .our-tours-price {
   color: #fff;
-  background: #ee4136;
+  background: #55AA55;
   display: inline-block;
   font-size: 11px;
   line-height: 1;
@@ -1242,7 +1246,7 @@ a:hover {
 .our-tours-list .owl-next {
   width: 45px;
   height: 45px;
-  background: #ee4136;
+  background: #55AA55;
   color: #fff;
   position: absolute;
   display: inline-block;
@@ -1298,7 +1302,7 @@ a:hover {
 }
 .search-tours:after {
   right: 0;
-  background: #ee4136;
+  background: #55AA55;
 }
 .search-tours .container {
   z-index: 2;
@@ -1319,7 +1323,7 @@ a:hover {
   font-size: 11px;
   padding: 0;
   margin-bottom: 0;
-  color: #ee4136;
+  color: #55AA55;
 }
 .search-tours-title-wrapper {
   background: #31353e;
@@ -1327,7 +1331,7 @@ a:hover {
   padding-bottom: 64px;
 }
 .search-tours-col-bg-default {
-  background: #ee4136;
+  background: #55AA55;
   padding-top: 65px;
   padding-bottom: 41px;
 }
@@ -1348,8 +1352,8 @@ a:hover {
 .search-tours .sky-form .input input,
 .search-tours .sky-form .select select,
 .search-tours .sky-form .textarea textarea {
-  background: #d43c31;
-  box-shadow: 0 0 3px #ca352b inset;
+  background: #278727;
+  box-shadow: 0 0 3px #116611 inset;
   color: #fff;
   border: none;
 }
@@ -1430,12 +1434,12 @@ em.invalid {
 
 /*Success message*/
 .sky-form .message {
-  color: #e74c3c;
+  color: #278727;
 
 }
 
 .sky-form .message i {
-  border: 1px solid #e74c3c;
+  border: 1px solid #278727;
 }
 
 .sky-form.submited .message p {

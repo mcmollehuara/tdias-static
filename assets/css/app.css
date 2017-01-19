@@ -673,17 +673,17 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-u-red {
-	background: #e74c3c;
+	background: #278727;
 }
 .btn-u.btn-u-red:hover,
 .btn-u.btn-u-red:focus,
 .btn-u.btn-u-red:active,
 .btn-u.btn-u-red.active,
 .open .dropdown-toggle.btn-u.btn-u-red {
-	background: #c0392b;
+	background: #014601;
 }
 .btn-u.btn-u-split-red.dropdown-toggle {
-	border-left: solid 1px #c0392b;
+	border-left: solid 1px #014601;
 }
 
 .btn-u.btn-u-orange {
@@ -898,14 +898,14 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-brd.btn-u-red {
-	border-color: #e74c3c;
+	border-color: #278727;
 }
 .btn-u.btn-brd.btn-u-red:hover {
-	color: #c0392b;
-	border-color: #c0392b;
+	color: #014601;
+	border-color: #014601;
 }
 .btn-u.btn-brd.btn-u-red.btn-brd-hover:hover {
-	background: #c0392b;
+	background: #014601;
 }
 
 .btn-u.btn-brd.btn-u-orange {
@@ -1097,7 +1097,7 @@ span.badge-blue,
 span.label-red,
 span.badge-red,
 .list-group-item.active>.badge {
-	background: #e74c3c;
+	background: #278727;
 }
 
 span.label-green,
@@ -1420,8 +1420,8 @@ i.icon-color-blue {
 	border: solid 1px #3498db;
 }
 i.icon-color-red {
-	color: #e74c3c;
-	border: solid 1px #e74c3c;
+	color: #278727;
+	border: solid 1px #278727;
 }
 i.icon-color-sea {
 	color: #1abc9c;
@@ -1500,7 +1500,7 @@ i.icon-bg-blue {
 	background: #3498db;
 }
 i.icon-bg-red {
-	background: #e74c3c;
+	background: #278727;
 }
 i.icon-bg-sea {
 	background: #1abc9c;
@@ -1609,7 +1609,7 @@ i.icon-bg-light-grey {
 	background: #3498db;
 }
 .text-highlights-red {
-	background: #e74c3c;
+	background: #278727;
 }
 .text-highlights-sea {
 	background: #1abc9c;
@@ -1651,7 +1651,7 @@ i.icon-bg-light-grey {
 	border-color: #3498db;
 }
 .text-border-red {
-	border-color: #e74c3c;
+	border-color: #278727;
 }
 .text-border-yellow {
 	border-color: #f1c40f;
@@ -1864,11 +1864,11 @@ blockquote.hero.hero-default small {
 
 /*Panel Red*/
 .panel-red {
-	border-color: #e74c3c;
+	border-color: #278727;
 }
 
 .panel-red > .panel-heading {
-	background: #e74c3c;
+	background: #278727;
 }
 
 /*Panel Green*/
@@ -2031,7 +2031,7 @@ blockquote.hero.hero-default small {
 }
 
 .progress-bar-red {
-	background: #e74c3c;
+	background: #278727;
 }
 
 .progress-bar-purple {
@@ -2344,7 +2344,7 @@ img.image-md {
 /*Text Colors
 ------------------------------------*/
 .color-sea { color: #1abc9c;}
-.color-red { color: #e74c3c;}
+.color-red { color: #278727;}
 .color-aqua { color: #27d7e7;}
 .color-blue { color: #3498db;}
 .color-grey { color: #95a5a6;}
@@ -2393,7 +2393,7 @@ img.image-md {
 .bg-color-darker { background-color: #222 !important;}
 .bg-color-white { background-color: #fff !important;}
 .bg-color-sea { background-color: #1abc9c !important;}
-.bg-color-red { background-color: #e74c3c !important;}
+.bg-color-red { background-color: #278727 !important;}
 .bg-color-aqua { background-color: #27d7e7 !important;}
 .bg-color-blue { background-color: #3498db !important;}
 .bg-color-grey { background-color: #95a5a6 !important;}
