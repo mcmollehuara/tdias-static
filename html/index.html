@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/app.css">
 	<link rel="stylesheet" href="../assets/css/blocks.css">
+	<link rel="stylesheet" href="../assets/css/one.style.css">
 
 	<!-- CSS Implementing Plugins -->
 	<link rel="stylesheet" href="../assets/plugins/animate.css">
@@ -41,6 +42,9 @@
 
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="assets/css/custom.css">
+
+	<!-- CSS Page Style -->
+	<link rel="stylesheet" href="../assets/css/pages/shortcode_timeline1.css">
 </head>
 <!--
 	The data-spy and data-target are part of the built-in Bootstrap scrollspy function.
@@ -49,7 +53,8 @@
 <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
 	<main class="wrapper">
 		<!--=== Header ===-->
-		<nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+		<nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed top-nav-none-collapse"
+			data-role="navigation">
 			<div class="container">
 				<div class="menu-container page-scroll">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -342,7 +347,7 @@
 									<div class="col col-3">
 										<label class="label">Origen</label>
 										<label class="select">
-									<select>
+									<select id="origenList">
 										<option value="0" selected>Seleccionar</option>
 										<option value="1">Cajabamba</option>
 										<option value="2">Cajamarca</option>
@@ -356,7 +361,7 @@
 									<div class="col col-3">
 										<label class="label">Destino</label>
 										<label class="select">
-									<select>
+									<select id="destinoList">
 										<option value="0" selected>Seleccionar</option>
 										<option value="1">Lima</option>
 										<option value="2">Chiclayo</option>
@@ -377,7 +382,7 @@
 									</div>
 
 									<div class="col col-3">
-										<a onclick="window.location.href='search.html';" type="submit" class="btn-u btn-u-lg btn-u-upper">Buscar</a>
+										<a onclick="onSearch()" type="submit" class="btn-u btn-u-lg btn-u-upper">Buscar</a>
 									</div>
 								</form>
 							</div>
@@ -630,7 +635,7 @@
 								</label>
 								</div>
 							</div>
-							<button class="btn-u btn-u-lg btn-u-red btn-u-upper" type="submit">Buscar</button>
+							<a onclick="window.location.href='cargo.html'" class="btn-u btn-u-lg btn-u-red btn-u-upper" type="submit">Buscar</a>
 						</form>
 					</div>
 				</div>
@@ -731,7 +736,9 @@
 					<!-- Service Info -->
 					<div class="col-md-3 our-service-info equal-height-column">
 						<h2 class="h2"><em class="block-name">Nuevos</em><br> <strong>Nuestros</strong> Servicios</h2>
-						<p>Nuestro propósito es atender las necesidades de transporte de personas, correo y bienes de nuestra sociedad en nuestras rutas de franquicia nacional. Nuestro compromiso es proporcionar todas nuestras actividades, seguridad, puntualidad y buen servicio. Reconocemos que la preferencia pública es nuestro patrimonio.</p>
+						<p>Nuestro propósito es atender las necesidades de transporte de personas, correo y bienes de nuestra sociedad en nuestras
+							rutas de franquicia nacional. Nuestro compromiso es proporcionar todas nuestras actividades, seguridad, puntualidad
+							y buen servicio. Reconocemos que la preferencia pública es nuestro patrimonio.</p>
 					</div>
 					<!-- End Service Info -->
 
@@ -741,7 +748,7 @@
 							<div class="our-services-list-item equal-height-column">
 								<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/services/picjumbo.com_HNCK4183.jpg" alt="ALT" class="img-reposnsive"></div>
 								<h3>Servicio Kuntur Wasi VIP</h3>
-								<p>Descripción del servicio Servicio Kuntur Wasi VIP 
+								<p>Descripción del servicio Servicio Kuntur Wasi VIP
 								</p>
 								<a href="#" class="btn-u btn-u-lg btn-u-red btn-u-upper">Leer más</a>
 							</div>
@@ -751,7 +758,7 @@
 							<div class="our-services-list-item equal-height-column">
 								<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/services/picjumbo.com_HNCK8242.jpg" alt="ALT" class="img-reposnsive"></div>
 								<h3>Servicio Turístico</h3>
-								<p>Descripción del servicio Servicio Kuntur Wasi VIP 
+								<p>Descripción del servicio Servicio Kuntur Wasi VIP
 								</p>
 								<a href="#" class="btn-u btn-u-lg btn-u-red btn-u-upper">Leer más</a>
 							</div>
@@ -761,7 +768,7 @@
 							<div class="our-services-list-item equal-height-column">
 								<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/services/picjumbo.com_IMG_6358.jpg" alt="ALT" class="img-reposnsive"></div>
 								<h3>Servicio Economico</h3>
-								<p>Descripción del servicio Servicio Kuntur Wasi VIP 
+								<p>Descripción del servicio Servicio Kuntur Wasi VIP
 								</p>
 								<a href="#" class="btn-u btn-u-lg btn-u-red btn-u-upper">Leer más</a>
 							</div>
@@ -771,7 +778,7 @@
 							<div class="our-services-list-item equal-height-column">
 								<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/services/greece-2.jpg" alt="ALT" class="img-reposnsive"></div>
 								<h3>Servicio Presidencial</h3>
-								<p>Descripción del servicio Servicio Kuntur Wasi VIP 
+								<p>Descripción del servicio Servicio Kuntur Wasi VIP
 								</p>
 								<a href="#" class="btn-u btn-u-lg btn-u-red btn-u-upper">Leer más</a>
 							</div>
@@ -781,7 +788,7 @@
 							<div class="our-services-list-item equal-height-column">
 								<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/services/picjumbo.com_vranov-czech-republic.jpg" alt="ALT" class="img-reposnsive"></div>
 								<h3>Servicio Elite</h3>
-								<p>Descripción del servicio Servicio Kuntur Wasi VIP 
+								<p>Descripción del servicio Servicio Kuntur Wasi VIP
 								</p>
 								<a href="#" class="btn-u btn-u-lg btn-u-red btn-u-upper">Leer más</a>
 							</div>
@@ -800,8 +807,11 @@
 				<div class="row g-mb-70">
 					<div class="col-sm-8 col-sm-offset-2">
 						<h2 class="h2"><br> <strong>Nuestra</strong> Galería</h2>
-						<div>Perú (pronunciado / pəruː /; Español: Perú, Quechua: Perú, Aymara: Piruw). 
-							Es un país en el oeste de América del Sur. Limita al norte con Ecuador y Colombia, al este con Brasil, al sur con Bolivia, al sur con Chile y al oeste con el Océano Pacífico. Su territorio se compone de diversos paisajes, las tierras altas, páramos, valles y altos picos de los Andes separan el desierto costero al oeste y el Amazonas al este. El Perú es uno de los países con mayor biodiversidad del mundo y los principales recursos minerales.
+						<div>Perú (pronunciado / pəruː /; Español: Perú, Quechua: Perú, Aymara: Piruw). Es un país en el oeste de América del Sur.
+							Limita al norte con Ecuador y Colombia, al este con Brasil, al sur con Bolivia, al sur con Chile y al oeste con el
+							Océano Pacífico. Su territorio se compone de diversos paisajes, las tierras altas, páramos, valles y altos picos de
+							los Andes separan el desierto costero al oeste y el Amazonas al este. El Perú es uno de los países con mayor biodiversidad
+							del mundo y los principales recursos minerales.
 						</div>
 					</div>
 				</div>
@@ -893,7 +903,9 @@
 				<div class="row g-mb-70">
 					<div class="col-sm-8 col-sm-offset-2">
 						<h2 class="h2"><br> <strong>Testimonios</strong></h2>
-						<div>Somos una empresa formal y confiable para nuestros clientes, proveedores, empleados y la comunidad. Buscamos una rentabilidad para apoyar el desarrollo de la empresa y la seguridad de los trabajadores, respetando nuestro compromiso con el medio ambiente y la sociedad en su conjunto.</div>
+						<div>Somos una empresa formal y confiable para nuestros clientes, proveedores, empleados y la comunidad. Buscamos una rentabilidad
+							para apoyar el desarrollo de la empresa y la seguridad de los trabajadores, respetando nuestro compromiso con el medio
+							ambiente y la sociedad en su conjunto.</div>
 					</div>
 				</div>
 				<!-- End Testimonials Info -->
@@ -1150,6 +1162,59 @@ $(function() {
 	ContactForm.initContactForm();
 });
 </script>
+
+	<script>
+	$(document).ready(function($) {
+
+var jqxhr = $.get("http://turismodias.gebscorp.com:5100/cst/ticket/rutaviaje/origen", function(j) {
+  console.log( "success" );
+   var options = '';
+      for (var i = 0; i < j.length; i++) {
+        options += '<option value="' + j[i].nombre + '">' + j[i].nombre + '</option>';
+      }
+      $("select#destinoList").html(options); 
+
+})
+  .done(function(data,a,b) {
+	  console.log(data);
+    console.log( "second success" );
+  })
+  .fail(function(data,a,b) {	
+	  console.log(data);
+    console.log( "error" );
+  })
+  .always(function(data,a,b) {
+	  console.log(data);
+    console.log( "complete" );
+  });
+
+  
+jqxhr.complete(function(a, b, c) {
+  console.log( "second complete" );
+});  
+
+$.get("http://turismodias.gebscorp.com:5100/cst/ticket/rutaviaje/destino", function(j) {
+  console.log( "success" );
+   var options = '';
+      for (var i = 0; i < j.length; i++) {
+        options += '<option value="' + j[i].nombre + '">' + j[i].nombre + '</option>';
+      }
+      $("select#origenList").html(options); 
+
+})
+	});
+	
+function onSearch(){
+var origin = $("select#origenList").val();
+var destination = $("select#destinoList").val();
+
+window.location.href='search.html?origen='+origin+'&destino='+destination;
+}
+	
+
+
+</script>
+
 
 	<!--[if lt IE 10]>
 	<script src="../assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>

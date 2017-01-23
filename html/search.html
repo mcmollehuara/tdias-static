@@ -117,12 +117,7 @@
 									<div class="col col-3">
 										<label class="label">Origen</label>
 										<label class="select">
-									<select>
-										<option value="0" selected>Seleccionar</option>
-										<option value="1">Department 1</option>
-										<option value="2">Department 2</option>
-										<option value="3">Department 3</option>
-										<option value="4">Department 4</option>
+									<select id="origenList">
 									</select>
 									<i></i>
 								</label>
@@ -131,12 +126,7 @@
 									<div class="col col-3">
 										<label class="label">Destino</label>
 										<label class="select">
-									<select>
-										<option value="0" selected>Seleccionar</option>
-										<option value="1">Department 1</option>
-										<option value="2">Department 2</option>
-										<option value="3">Department 3</option>
-										<option value="4">Department 4</option>
+									<select id="destinoList">										
 									</select>
 									<i></i>
 								</label>
@@ -147,7 +137,7 @@
 										<label class="label">Personas</label>
 										<label class="input">
 									<span class="icon-append fa fa-users"></span>
-									<input type="text" placeholder="Number of persons">
+									<input  value="1" type="text" placeholder="Number of persons">
 								</label>
 									</div>
 
@@ -164,8 +154,7 @@
 			<div class="container-fluid">
 				<br>
 				<div class="our-tours-list-wrapper">
-					<div class="our-tours-list text-left">
-						<!-- Item 1 -->
+					<div  id="slider" class="our-tours-list text-left">
 						<div class="our-tours-list-item">
 							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/greece-2.jpg" alt="ALT" class="img-reposnsive"></div>
 							<h3>Crete</h3>
@@ -180,9 +169,6 @@
 							<div class="our-tours-price">$350.00</div>
 							<a href="#" class="our-tours-list-item__more">More</a>
 						</div>
-						<!-- End Item 1 -->
-
-						<!-- Item 2 -->
 						<div class="our-tours-list-item">
 							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8248.jpg" alt="ALT" class="img-reposnsive"></div>
 							<h3>Langkawi</h3>
@@ -197,290 +183,8 @@
 							<div class="our-tours-price">$350.00</div>
 							<a href="#" class="our-tours-list-item__more">More</a>
 						</div>
-						<!-- End Item 2 -->
-
-						<!-- Item 3 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1431274172761-fca41d930114.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Paris</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 3 -->
-
-						<!-- Item 4 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8182.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Venice</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 4 -->
-
-						<!-- Item 5 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1420655710207-b092e1b8abe3.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>London</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 5 -->
-
-						<!-- Item 6 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8242.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Rome</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 6 -->						
 					</div>
 				</div>
-				<br>	
-								<div class="our-tours-list-wrapper">
-					<div class="our-tours-list text-left">
-						<!-- Item 1 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/greece-2.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Crete</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 1 -->
-
-						<!-- Item 2 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8248.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Langkawi</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 2 -->
-
-						<!-- Item 3 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1431274172761-fca41d930114.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Paris</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 3 -->
-
-						<!-- Item 4 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8182.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Venice</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 4 -->
-
-						<!-- Item 5 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1420655710207-b092e1b8abe3.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>London</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 5 -->
-
-						<!-- Item 6 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8242.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Rome</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 6 -->						
-					</div>
-				</div>
-				<br>
-								<div class="our-tours-list-wrapper">
-					<div class="our-tours-list text-left">
-						<!-- Item 1 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/greece-2.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Crete</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 1 -->
-
-						<!-- Item 2 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8248.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Langkawi</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 2 -->
-
-						<!-- Item 3 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1431274172761-fca41d930114.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Paris</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 3 -->
-
-						<!-- Item 4 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8182.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Venice</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 4 -->
-
-						<!-- Item 5 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/photo-1420655710207-b092e1b8abe3.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>London</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 5 -->
-
-						<!-- Item 6 -->
-						<div class="our-tours-list-item">
-							<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/picjumbo.com_HNCK8242.jpg" alt="ALT" class="img-reposnsive"></div>
-							<h3>Rome</h3>
-							<ul class="list-inline star-vote">
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star"></i></li>
-								<li><i class="g-color-default fa fa-star-half-o"></i></li>
-								<li><i class="g-color-default fa fa-star-o"></i></li>
-							</ul>
-							<p>dapibus quis sapien id phar etra iaculis est</p>
-							<div class="our-tours-price">$350.00</div>
-							<a href="#" class="our-tours-list-item__more">More</a>
-						</div>
-						<!-- End Item 6 -->						
-					</div>
-				</div>
-
 			</div>
 		</div>
 		<!-- End Our Tours Section -->
@@ -752,7 +456,88 @@ $(function() {
 	ContactForm.initContactForm();
 });
 </script>
+	<script>
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+var _origen = getUrlParameter("origen");
+		var _destino = getUrlParameter("destino");
+
+	$(document).ready(function($) {
+		$.get("http://turismodias.gebscorp.com:5100/cst/ticket/rutaviaje/origen", function(j) {
+  console.log( "success" );
+   var options = '';
+      for (var i = 0; i < j.length; i++) {
+		  var selected = "";
+		  if(j[i].nombre == _origen)
+		  {
+			 selected =  "selected";
+		  }
+        options += '<option '+selected+' value="' + j[i].nombre + '">' + j[i].nombre + '</option>';
+      }
+      $("select#origenList").html(options); 
+
+});
+
+$.get("http://turismodias.gebscorp.com:5100/cst/ticket/rutaviaje/destino", function(j) {
+  console.log( "success" );
+   var options = '';
+   	  
+      for (var i = 0; i < j.length; i++) {
+		  var selected = "";
+		  if(j[i].nombre == _destino)
+		  {
+			 selected =  "selected";
+		  }
+        options += '<option '+selected+' value="' + j[i].nombre + '">' + j[i].nombre + '</option>';
+      }
+      $("select#destinoList").html(options); 
+
+});
+	
+
+		
+		var url = "http://turismodias.gebscorp.com:5100/cst/ticket/itinerario/rutaviaje?origen="+_origen+"&destino="+_destino;
+		$.get(url, function(data) {
+			console.log(data);
+			// var slider =$(".our-tours-list");
+			var sliderContent = "";
+			for(var i = 0;i<data.length;i++){
+				sliderContent = sliderContent+
+				'<div class="our-tours-list-item">'+
+							'<div class="img-wrapper img-wrapper--shadow"><img src="assets/img-temp/offers/greece-2.jpg" alt="ALT" class="img-reposnsive"></div>'+
+							'<h3>Crete</h3>'+
+							'<ul class="list-inline star-vote">'+
+								'<li><i class="g-color-default fa fa-star"></i></li>'+
+								'<li><i class="g-color-default fa fa-star"></i></li>'+
+								'<li><i class="g-color-default fa fa-star-half-o"></i></li>'+
+								'<li><i class="g-color-default fa fa-star-o"></i></li>'+
+								'<li><i class="g-color-default fa fa-star-o"></i></li>'+
+							'</ul>'+
+							'<p>dapibus quis sapien id phar etra iaculis est</p>'+
+							'<div class="our-tours-price">$350.00</div>'+
+							'<a href="#" class="our-tours-list-item__more">More</a>'+
+						'</div>'; 
+			}
+			$("#slider").html(sliderContent);			
+		})
+	});
+
+
+</script>
 	<!--[if lt IE 10]>
 	<script src="../assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
 <![endif]-->

@@ -711,7 +711,7 @@ a:hover {
 /* Fixed Header */
 .one-page-header.top-nav-collapse {
   box-shadow: none;
-  background: rgba(49,53,62,.8);
+  background: rgba(49,53,62,.8) !important;
 }
 
 @media (max-width: 768px) {
