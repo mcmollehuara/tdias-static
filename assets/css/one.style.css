@@ -19,13 +19,13 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #555;
+  color: #CCC;
 }
 
 p,
 li,
 li a {
-  color: #555;
+  color: #CCC;
 }
 
 a {
@@ -566,7 +566,7 @@ a:hover {
 
 /* Navbar Toggle */
 .one-page-header.top-nav-collapse .navbar-toggle .icon-bar {
-  background: #555;
+  background: #CCC;
 }
 
 .one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {

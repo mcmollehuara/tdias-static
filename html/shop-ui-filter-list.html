@@ -1,605 +1,683 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="es" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
- <head>
- 	<title>Product Grid | Unify - Responsive Website Template</title>
+<!--[if !IE]><!-->
+<html lang="es">
+<!--<![endif]-->
 
- 	<!-- Meta -->
- 	<meta charset="utf-8">
- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 	<meta name="description" content="">
- 	<meta name="author" content="">
+<head>
+	<title>Turismo Dias</title>
 
- 	<!-- Favicon -->
- 	<!--<link rel="shortcut icon" href="favicon.ico">-->
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
- 	<!-- Web Fonts -->
- 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+	<!-- Favicon -->
+	<!--<link rel="shortcut icon" href="favicon.ico">-->
 
- 	<!-- CSS Global Compulsory -->
- 	<link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
- 	<link rel="stylesheet" href="../assets/css/shop.style.css">
+	<!-- Web Fonts -->
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
- 	<!-- CSS Header and Footer -->
- 	<!--<link rel="stylesheet" href="../assets/css/headers/header-v5.css">
- 	<link rel="stylesheet" href="../assets/css/footers/footer-v4.css">-->
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/shop.style.css">
 
- 	<!-- CSS Implementing Plugins -->
- 	<link rel="stylesheet" href="../assets/plugins/animate.css">
- 	<link rel="stylesheet" href="../assets/plugins/line-icons/line-icons.css">
- 	<link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.min.css">
- 	<!--<link rel="stylesheet" href="../assets/plugins/noUiSlider/jquery.nouislider.min.css">
+	<!-- CSS Header and Footer -->
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="../assets/plugins/animate.css">
+	<link rel="stylesheet" href="../assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="../assets/plugins/noUiSlider/jquery.nouislider.min.css">
  	<link rel="stylesheet" href="../assets/plugins/scrollbar/css/jquery.mCustomScrollbar.css">-->
 
- 	<!-- Style Switcher -->
- 	<!--<link rel="stylesheet" href="../assets/css/plugins/style-switcher.css">-->
+	<!-- Style Switcher -->
+	<!--<link rel="stylesheet" href="../assets/css/plugins/style-switcher.css">-->
 
- 	<!-- CSS Theme -->
- 	<link rel="stylesheet" href="../assets/css/theme-colors/default.css" id="style_color">
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/travel.style.css">
+	<link rel="stylesheet" href="../assets/css/theme-colors/default.css" id="style_color">
 
- 	<!-- CSS Customization -->
- 	<link rel="stylesheet" href="assets/css/custom.css">
- </head>
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
 
 <body class="header-fixed">
 
 	<div class="wrapper">
-		<!--=== Content Part ===-->
-		<div class="content container">
-			<div class="row">
-				<div class="col-md-3 filter-by-block md-margin-bottom-60">
-					<h1>Filter By</h1>
-					<div class="panel-group" id="accordion">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-										Brands
+		<!--=== Header ===-->
+		<nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed" data-role="navigation"  style="background-color: #18ba9b">
+			<div class="container">
+				<div class="menu-container page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<a class="navbar-brand" href="#body">
+						<img src="assets/img/logo-light.png" alt="Turismo Dias" style="width:110px"/>
+</a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse navbar-ex1-collapse">
+	<div class="menu-container">
+		<ul class="nav navbar-nav">
+			<li class="page-scroll">
+				<a href="#Tickets"><span data-hover="Pasajes">Pasajes</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Destinations"><span data-hover="Destinos">Destinos</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Encomiendas"><span data-hover="Encomiendas">Encomiendas</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Purposes"><span data-hover="Empresa">Empresa</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Services"><span data-hover="Servicios">Servicios</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Gallery"><span data-hover="Galleria">Galleria</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Testimonials"><span data-hover="Testimonios">Testimonios</span></a>
+			</li>
+			<li class="page-scroll">
+				<a href="#Contact"><span data-hover="Contacto">Contacto</span></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+<!--=== End Header ===-->
+<!--=== Content Part ===-->
+<div class="content container    g-pt-100">
+	<div class="row">
+		<div class="col-md-3 filter-by-block md-margin-bottom-60">
+			<h1>Filtros</h1>
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+										Destinos
 										<i class="fa fa-angle-down"></i>
 									</a>
-								</h2>
-							</div>
-							<div id="collapseOne" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<ul class="list-unstyled checkbox-list">
-										<li>
-											<label class="checkbox">
+						</h2>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<ul class="list-unstyled checkbox-list">
+								<li>
+									<label class="checkbox">
 												<input type="checkbox" name="checkbox" checked />
 												<i></i>
-												Calvin Klein
+												Trujillo
 												<small><a href="#">(23)</a></small>
 											</label>
-										</li>
-										<li>
-											<label class="checkbox">
+								</li>
+								<li>
+									<label class="checkbox">
 												<input type="checkbox" name="checkbox" checked />
 												<i></i>
-												Gucci
+												Chiclayo
 												<small><a href="#">(4)</a></small>
 											</label>
-										</li>
-										<li>
-											<label class="checkbox">
+								</li>
+								<li>
+									<label class="checkbox">
 												<input type="checkbox" name="checkbox" />
 												<i></i>
-												Adidas
+												Piura
 												<small><a href="#">(11)</a></small>
 											</label>
-										</li>
-										<li>
-											<label class="checkbox">
+								</li>
+								<li>
+									<label class="checkbox">
 												<input type="checkbox" name="checkbox" />
 												<i></i>
-												Puma
+												Cajamarca
 												<small><a href="#">(3)</a></small>
 											</label>
-										</li>
-										<li>
-											<label class="checkbox">
+								</li>
+								<li>
+									<label class="checkbox">
 												<input type="checkbox" name="checkbox" />
 												<i></i>
-												Zara
+												Lima
 												<small><a href="#">(87)</a></small>
 											</label>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-
-					<div class="panel-group" id="accordion-v2">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
-										Categories
-										<i class="fa fa-angle-down"></i>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseTwo" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<ul class="list-unstyled checkbox-list">
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" checked />
-												<i></i>
-												Clothes
-												<small><a href="#">(23)</a></small>
-											</label>
-										</li>
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" checked />
-												<i></i>
-												Glasses
-												<small><a href="#">(4)</a></small>
-											</label>
-										</li>
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" />
-												<i></i>
-												Shoes
-												<small><a href="#">(11)</a></small>
-											</label>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-
-					<div class="panel-group" id="accordion-v3">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
-										Size
-										<i class="fa fa-angle-down"></i>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseThree" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<ul class="list-unstyled checkbox-list">
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" />
-												<i></i>
-												S
-												<small><a href="#">(23)</a></small>
-											</label>
-										</li>
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" checked />
-												<i></i>
-												M
-												<small><a href="#">(4)</a></small>
-											</label>
-										</li>
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" />
-												<i></i>
-												L
-												<small><a href="#">(11)</a></small>
-											</label>
-										</li>
-										<li>
-											<label class="checkbox">
-												<input type="checkbox" name="checkbox" />
-												<i></i>
-												XL
-												<small><a href="#">(3)</a></small>
-											</label>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-
-					<div class="panel-group" id="accordion-v4">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
-										Price
-										<i class="fa fa-angle-down"></i>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseFour" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<div class="slider-snap"></div>
-									<p class="slider-snap-text">
-										<span class="slider-snap-value-lower"></span>
-										<span class="slider-snap-value-upper"></span>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-
-					<div class="panel-group" id="accordion-v5">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
-										Color
-										<i class="fa fa-angle-down"></i>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseFive" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<ul class="list-inline product-color-list">
-										<li><a href="#"><img src="assets/img/colors/01.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/02.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/03.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/04.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/05.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/06.jpg" alt=""></a></li>
-										<li><a href="#"><img src="assets/img/colors/07.jpg" alt=""></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-
-					<div class="panel-group margin-bottom-30" id="accordion-v6">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h2 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
-										Rating
-										<i class="fa fa-angle-down"></i>
-									</a>
-								</h2>
-							</div>
-							<div id="collapseSix" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<div class="stars-ratings stars-ratings-label">
-										<input type="radio" name="stars-rating" id="stars-rating-5">
-										<label for="stars-rating-5"><i class="fa fa-star"></i></label>
-										<input type="radio" name="stars-rating" id="stars-rating-4">
-										<label for="stars-rating-4"><i class="fa fa-star"></i></label>
-										<input type="radio" name="stars-rating" id="stars-rating-3">
-										<label for="stars-rating-3"><i class="fa fa-star"></i></label>
-										<input type="radio" name="stars-rating" id="stars-rating-2">
-										<label for="stars-rating-2"><i class="fa fa-star"></i></label>
-										<input type="radio" name="stars-rating" id="stars-rating-1">
-										<label for="stars-rating-1"><i class="fa fa-star"></i></label>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!--/end panel group-->
-					<button type="button" class="btn-u btn-brd btn-brd-hover btn-u-lg btn-u-sea-shop btn-block">Reset</button>
-				</div>
-
-				<div class="col-md-9">
-					<div class="row margin-bottom-5">
-						<div class="col-sm-4 result-category">
-							<h2>Men</h2>
-							<small class="shop-bg-red badge-results">45 Results</small>
-						</div>
-						<div class="col-sm-8">
-							<ul class="list-inline clear-both">
-								<li class="grid-list-icons">
-									<a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>
-									<a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>
-								</li>
-								<li class="sort-list-btn">
-									<h3>Sort By :</h3>
-									<div class="btn-group">
-										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-											Popularity <span class="caret"></span>
-										</button>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="#">All</a></li>
-											<li><a href="#">Best Sales</a></li>
-											<li><a href="#">Top Last Week Sales</a></li>
-											<li><a href="#">New Arrived</a></li>
-										</ul>
-									</div>
-								</li>
-								<li class="sort-list-btn">
-									<h3>Show :</h3>
-									<div class="btn-group">
-										<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-											20 <span class="caret"></span>
-										</button>
-										<ul class="dropdown-menu" role="menu">
-											<li><a href="#">All</a></li>
-											<li><a href="#">10</a></li>
-											<li><a href="#">5</a></li>
-											<li><a href="#">3</a></li>
-										</ul>
-									</div>
 								</li>
 							</ul>
 						</div>
-					</div><!--/end result category-->
-
-					<div class="filter-results">
-						<div class="list-product-description product-description-brd margin-bottom-30">
-							<div class="row">
-								<div class="col-sm-4">
-									<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>
-								</div>
-								<div class="col-sm-8 product-description">
-									<div class="overflow-h margin-bottom-5">
-										<ul class="list-inline overflow-h">
-											<li><h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4></li>
-											<li><span class="gender text-uppercase">Men</span></li>
-											<li class="pull-right">
-												<ul class="list-inline product-ratings">
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-												</ul>
-											</li>
-										</ul>
-										<div class="margin-bottom-10">
-											<span class="title-price margin-right-10">$60.00</span>
-											<span class="title-price line-through">$95.00</span>
-										</div>
-										<p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin erat nec ornarevolu tpat. Etiam ut felis nec nisl eleifend lobortis. Aenean nibh est, hendrerit non conva.</p>
-										<ul class="list-inline add-to-wishlist margin-bottom-20">
-											<li class="wishlist-in">
-												<i class="fa fa-heart"></i>
-												<a href="#">Add to Wishlist</a>
-											</li>
-											<li class="compare-in">
-												<i class="fa fa-exchange"></i>
-												<a href="#">Add to Compare</a>
-											</li>
-										</ul>
-										<button type="button" class="btn-u btn-u-sea-shop">Add to Cart</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="list-product-description product-description-brd margin-bottom-30">
-							<div class="row">
-								<div class="col-sm-4">
-									<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/17.jpg" alt=""></a>
-								</div>
-								<div class="col-sm-8 product-description">
-									<div class="overflow-h margin-bottom-5">
-										<ul class="list-inline overflow-h">
-											<li><h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4></li>
-											<li><span class="gender text-uppercase">Men</span></li>
-											<li class="pull-right">
-												<ul class="list-inline product-ratings">
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-												</ul>
-											</li>
-										</ul>
-										<div class="margin-bottom-10">
-											<span class="title-price margin-right-10">$60.00</span>
-											<span class="title-price line-through">$95.00</span>
-										</div>
-										<p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin erat nec ornarevolu tpat. Etiam ut felis nec nisl eleifend lobortis. Aenean nibh est, hendrerit non conva.</p>
-										<ul class="list-inline add-to-wishlist margin-bottom-20">
-											<li class="wishlist-in">
-												<i class="fa fa-heart"></i>
-												<a href="#">Add to Wishlist</a>
-											</li>
-											<li class="compare-in">
-												<i class="fa fa-exchange"></i>
-												<a href="#">Add to Compare</a>
-											</li>
-										</ul>
-										<button type="button" class="btn-u btn-u-sea-shop">Add to Cart</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="list-product-description product-description-brd margin-bottom-30">
-							<div class="row">
-								<div class="col-sm-4">
-									<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/21.jpg" alt=""></a>
-								</div>
-								<div class="col-sm-8 product-description">
-									<div class="overflow-h margin-bottom-5">
-										<ul class="list-inline overflow-h">
-											<li><h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4></li>
-											<li><span class="gender text-uppercase">Men</span></li>
-											<li class="pull-right">
-												<ul class="list-inline product-ratings">
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-												</ul>
-											</li>
-										</ul>
-										<div class="margin-bottom-10">
-											<span class="title-price margin-right-10">$60.00</span>
-											<span class="title-price line-through">$95.00</span>
-										</div>
-										<p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin erat nec ornarevolu tpat. Etiam ut felis nec nisl eleifend lobortis. Aenean nibh est, hendrerit non conva.</p>
-										<ul class="list-inline add-to-wishlist margin-bottom-20">
-											<li class="wishlist-in">
-												<i class="fa fa-heart"></i>
-												<a href="#">Add to Wishlist</a>
-											</li>
-											<li class="compare-in">
-												<i class="fa fa-exchange"></i>
-												<a href="#">Add to Compare</a>
-											</li>
-										</ul>
-										<button type="button" class="btn-u btn-u-sea-shop">Add to Cart</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="list-product-description product-description-brd margin-bottom-30">
-							<div class="row">
-								<div class="col-sm-4">
-									<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/22.jpg" alt=""></a>
-								</div>
-								<div class="col-sm-8 product-description">
-									<div class="overflow-h margin-bottom-5">
-										<ul class="list-inline overflow-h">
-											<li><h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4></li>
-											<li><span class="gender text-uppercase">Men</span></li>
-											<li class="pull-right">
-												<ul class="list-inline product-ratings">
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-												</ul>
-											</li>
-										</ul>
-										<div class="margin-bottom-10">
-											<span class="title-price margin-right-10">$60.00</span>
-											<span class="title-price line-through">$95.00</span>
-										</div>
-										<p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin erat nec ornarevolu tpat. Etiam ut felis nec nisl eleifend lobortis. Aenean nibh est, hendrerit non conva.</p>
-										<ul class="list-inline add-to-wishlist margin-bottom-20">
-											<li class="wishlist-in">
-												<i class="fa fa-heart"></i>
-												<a href="#">Add to Wishlist</a>
-											</li>
-											<li class="compare-in">
-												<i class="fa fa-exchange"></i>
-												<a href="#">Add to Compare</a>
-											</li>
-										</ul>
-										<button type="button" class="btn-u btn-u-sea-shop">Add to Cart</button>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="list-product-description product-description-brd">
-							<div class="row">
-								<div class="col-sm-4">
-									<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/23.jpg" alt=""></a>
-								</div>
-								<div class="col-sm-8 product-description">
-									<div class="overflow-h margin-bottom-5">
-										<ul class="list-inline overflow-h">
-											<li><h4 class="title-price"><a href="shop-ui-inner.html">Double-breasted</a></h4></li>
-											<li><span class="gender text-uppercase">Men</span></li>
-											<li class="pull-right">
-												<ul class="list-inline product-ratings">
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating-selected fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-													<li><i class="rating fa fa-star"></i></li>
-												</ul>
-											</li>
-										</ul>
-										<div class="margin-bottom-10">
-											<span class="title-price margin-right-10">$60.00</span>
-											<span class="title-price line-through">$95.00</span>
-										</div>
-										<p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin erat nec ornarevolu tpat. Etiam ut felis nec nisl eleifend lobortis. Aenean nibh est, hendrerit non conva.</p>
-										<ul class="list-inline add-to-wishlist margin-bottom-20">
-											<li class="wishlist-in">
-												<i class="fa fa-heart"></i>
-												<a href="#">Add to Wishlist</a>
-											</li>
-											<li class="compare-in">
-												<i class="fa fa-exchange"></i>
-												<a href="#">Add to Compare</a>
-											</li>
-										</ul>
-										<button type="button" class="btn-u btn-u-sea-shop">Add to Cart</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!--/end filter resilts-->
-
-					<div class="text-center">
-						<ul class="pagination pagination-v2">
-							<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-							<li><a href="#">1</a></li>
-							<li class="active"><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-						</ul>
-					</div><!--/end pagination-->
+					</div>
 				</div>
-			</div><!--/end row-->
-		</div><!--/end container-->
-		<!--=== End Content Part ===-->
-	</div><!--/wrapper-->
-
-	<!-- Wait Block -->
-	<div class="g-popup-wrapper">
-		<div class="g-popup g-popup--subscribe2">
-			<div class="g-popup--subscribe2-message">
-				<span class="icon-envelope-letter icon" aria-hidden="true"></span>
-
-				<h3>Subscribe To Our Newsletter</h3>
-				<p>Join our mailing list to receive the latest news &amp;&nbsp;updates from our team.</p>
 			</div>
-			<form action="#" class="sky-form">
-				<div class="row">
-					<section class="col-sm-9">
-						<label class="input">
-							<input type="email" placeholder="Email" class="form-control">
-						</label>
-					</section>
-					<section class="col-sm-3">
-						<label class="input">
-							<button class="btn btn-default" type="button">Subscribe</button>
-						</label>
-					</section>
-				</div>
-			</form>
+			<!--/end panel group-->
 
-			<a href="javascript:void(0);" class="g-popup__close g-popup--subscribe2__close"><span class="icon-close" aria-hidden="true"></span></a>
+			<div class="panel-group" id="accordion-v2">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-v2" href="#collapseTwo">
+										Tipo de Servicios
+										<i class="fa fa-angle-down"></i>
+									</a>
+						</h2>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<ul class="list-unstyled checkbox-list">
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" checked />
+												<i></i>
+												Turistico
+												<small><a href="#">(23)</a></small>
+											</label>
+								</li>
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" checked />
+												<i></i>
+												Kuntur Wasi
+												<small><a href="#">(4)</a></small>
+											</label>
+								</li>
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" />
+												<i></i>
+												Estandar
+												<small><a href="#">(11)</a></small>
+											</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end panel group-->
+
+			<div class="panel-group" id="accordion-v3">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-v3" href="#collapseThree">
+										Otros
+										<i class="fa fa-angle-down"></i>
+									</a>
+						</h2>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<ul class="list-unstyled checkbox-list">
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" />
+												<i></i>
+												Calefacción
+												<small><a href="#">(23)</a></small>
+											</label>
+								</li>
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" checked />
+												<i></i>
+												TV
+												<small><a href="#">(4)</a></small>
+											</label>
+								</li>
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" />
+												<i></i>
+												Baño Químico
+												<small><a href="#">(11)</a></small>
+											</label>
+								</li>
+								<li>
+									<label class="checkbox">
+												<input type="checkbox" name="checkbox" />
+												<i></i>
+												Aire Acondicionado
+												<small><a href="#">(3)</a></small>
+											</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end panel group-->
+
+			<div class="panel-group" id="accordion-v4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-v4" href="#collapseFour">
+										Precios
+										<i class="fa fa-angle-down"></i>
+									</a>
+						</h2>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<div class="slider-snap"></div>
+							<p class="slider-snap-text">
+								<span class="slider-snap-value-lower"></span>
+								<span class="slider-snap-value-upper"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end panel group-->
+
+			<div class="panel-group" id="accordion-v5">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-v5" href="#collapseFive">
+										Tipo Asiento
+										<i class="fa fa-angle-down"></i>
+									</a>
+						</h2>
+					</div>
+					<div id="collapseFive" class="panel-collapse collapse in">
+							<div class="panel-body">
+							<ul class="list-inline product-color-list">
+								<li>
+									<a href="#">180°</a>
+								</li>
+								<li>
+									<a href="#">160°</a>
+								</li>
+								<li>
+									<a href="#">150°</a>
+								</li>								
+								<li>
+									<a href="#">140°</a>
+								</li>
+								<li>
+									<a href="#">130°</a>
+								</li>
+								<li>
+									<a href="#">120°</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end panel group-->
+
+			<div class="panel-group margin-bottom-30" id="accordion-v6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion-v6" href="#collapseSix">
+										Valoración
+										<i class="fa fa-angle-down"></i>
+									</a>
+						</h2>
+					</div>
+					<div id="collapseSix" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<div class="stars-ratings stars-ratings-label">
+								<input type="radio" name="stars-rating" id="stars-rating-5">
+								<label for="stars-rating-5"><i class="fa fa-star"></i></label>
+								<input type="radio" name="stars-rating" id="stars-rating-4">
+								<label for="stars-rating-4"><i class="fa fa-star"></i></label>
+								<input type="radio" name="stars-rating" id="stars-rating-3">
+								<label for="stars-rating-3"><i class="fa fa-star"></i></label>
+								<input type="radio" name="stars-rating" id="stars-rating-2">
+								<label for="stars-rating-2"><i class="fa fa-star"></i></label>
+								<input type="radio" name="stars-rating" id="stars-rating-1">
+								<label for="stars-rating-1"><i class="fa fa-star"></i></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end panel group-->
+			<button type="button" class="btn-u btn-brd btn-brd-hover btn-u-lg btn-u-sea-shop btn-block">Borrar</button>
+		</div>
+
+		<div class="col-md-9">
+			<div class="row margin-bottom-5">
+				<div class="col-sm-4 result-category">
+					<h2>Resultados</h2>
+					<small class="shop-bg-red badge-results">45 </small>
+				</div>
+				<div class="col-sm-8">
+					<ul class="list-inline clear-both">
+						<li class="grid-list-icons">
+							<a href="shop-ui-filter-list.html"><i class="fa fa-th-list"></i></a>
+							<a href="shop-ui-filter-grid.html"><i class="fa fa-th"></i></a>
+						</li>
+						<li class="sort-list-btn">
+							<h3>Ordenar por :</h3>
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+ 											Popularidad <span class="caret"></span>
+ 										</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Todos</a></li>
+									<li><a href="#">Mas bendidos</a></li>
+									<li><a href="#">Ventas de la semana pasada</a></li>
+									<li><a href="#">Recien llegados</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="sort-list-btn">
+							<h3>Mostrar :</h3>
+							<div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+ 											20 <span class="caret"></span>
+ 										</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Todos</a></li>
+									<li><a href="#">10</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">3</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--/end result category-->
+
+			<div class="filter-results">
+				<div class="list-product-description product-description-brd margin-bottom-30">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="shop-ui-inner.html">
+								<img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/16.jpg" alt=""></a>								
+						</div>
+						<div class="col-sm-8 product-description">
+							<div class="overflow-h margin-bottom-5">
+								<ul class="list-inline overflow-h">
+									<li>
+										<h4 class="title-price"><a href="shop-ui-inner.html">Lima-Trujillo</a></h4>
+									</li>
+									<li><span class="gender text-uppercase">5PM</span></li>
+									<li class="pull-right">
+										<ul class="list-inline product-ratings">
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="margin-bottom-10">
+									<span class="title-price margin-right-10">S/.60.00</span>
+									<span class="title-price line-through">S/.95.00</span>
+								</div>
+								<p class="margin-bottom-20">Viaje seguro con los profesionales del transporte terrestre.</p>
+								<ul class="list-inline add-to-wishlist margin-bottom-20">
+									<li class="wishlist-in">
+										<i class="fa fa-heart"></i>
+										<a href="#">Agregar a favorito</a>
+									</li>
+									<li class="compare-in">
+										<i class="fa fa-exchange"></i>
+										<a href="#">Agregar y comparar</a>
+									</li>
+								</ul>
+								<a  href="shop-ui-inner.html" type="button" class="btn-u btn-u-sea-shop">Detalle</a>
+								<button type="button" class="btn-u btn-u-sea-shop">Agregar al carrito</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list-product-description product-description-brd margin-bottom-30">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/17.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-8 product-description">
+							<div class="overflow-h margin-bottom-5">
+								<ul class="list-inline overflow-h">
+									<li>
+										<h4 class="title-price"><a href="shop-ui-inner.html">Lima-Trujillo</a></h4>
+									</li>
+									<li><span class="gender text-uppercase">5PM</span></li>
+									<li class="pull-right">
+										<ul class="list-inline product-ratings">
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="margin-bottom-10">
+									<span class="title-price margin-right-10">S/.60.00</span>
+									<span class="title-price line-through">S/.95.00</span>
+								</div>
+								<p class="margin-bottom-20">Viaje seguro con los profesionales del transporte terrestre.</p>
+								<ul class="list-inline add-to-wishlist margin-bottom-20">
+									<li class="wishlist-in">
+										<i class="fa fa-heart"></i>
+										<a href="#">Agregar a favorito</a>
+									</li>
+									<li class="compare-in">
+										<i class="fa fa-exchange"></i>
+										<a href="#">Agregar y comparar</a>
+									</li>
+								</ul>
+								<a  href="shop-ui-inner.html" type="button" class="btn-u btn-u-sea-shop">Detalle</a>
+								<button type="button" class="btn-u btn-u-sea-shop">Agregar al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list-product-description product-description-brd margin-bottom-30">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/21.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-8 product-description">
+							<div class="overflow-h margin-bottom-5">
+								<ul class="list-inline overflow-h">
+									<li>
+										<h4 class="title-price"><a href="shop-ui-inner.html">Lima-Trujillo</a></h4>
+									</li>
+									<li><span class="gender text-uppercase">5PM</span></li>
+									<li class="pull-right">
+										<ul class="list-inline product-ratings">
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="margin-bottom-10">
+									<span class="title-price margin-right-10">S/.60.00</span>
+									<span class="title-price line-through">S/.95.00</span>
+								</div>
+								<p class="margin-bottom-20">Viaje seguro con los profesionales del transporte terrestre.</p>
+								<ul class="list-inline add-to-wishlist margin-bottom-20">
+									<li class="wishlist-in">
+										<i class="fa fa-heart"></i>
+										<a href="#">Agregar a favorito</a>
+									</li>
+									<li class="compare-in">
+										<i class="fa fa-exchange"></i>
+										<a href="#">Agregar y comparar</a>
+									</li>
+								</ul>
+								<a  href="shop-ui-inner.html" type="button" class="btn-u btn-u-sea-shop">Detalle</a>
+								<button type="button" class="btn-u btn-u-sea-shop">Agregar al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list-product-description product-description-brd margin-bottom-30">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/22.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-8 product-description">
+							<div class="overflow-h margin-bottom-5">
+								<ul class="list-inline overflow-h">
+									<li>
+										<h4 class="title-price"><a href="shop-ui-inner.html">Lima-Trujillo</a></h4>
+									</li>
+									<li><span class="gender text-uppercase">5PM</span></li>
+									<li class="pull-right">
+										<ul class="list-inline product-ratings">
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="margin-bottom-10">
+									<span class="title-price margin-right-10">S/.60.00</span>
+									<span class="title-price line-through">S/.95.00</span>
+								</div>
+								<p class="margin-bottom-20">Viaje seguro con los profesionales del transporte terrestre.</p>
+								<ul class="list-inline add-to-wishlist margin-bottom-20">
+									<li class="wishlist-in">
+										<i class="fa fa-heart"></i>
+										<a href="#">Agregar a favorito</a>
+									</li>
+									<li class="compare-in">
+										<i class="fa fa-exchange"></i>
+										<a href="#">Agregar y comparar</a>
+									</li>
+								</ul>
+								<a  href="shop-ui-inner.html" type="button" class="btn-u btn-u-sea-shop">Detalle</a>
+								<button type="button" class="btn-u btn-u-sea-shop">Agregar al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="list-product-description product-description-brd">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="shop-ui-inner.html"><img class="img-responsive sm-margin-bottom-20" src="assets/img/blog/23.jpg" alt=""></a>
+						</div>
+						<div class="col-sm-8 product-description">
+							<div class="overflow-h margin-bottom-5">
+								<ul class="list-inline overflow-h">
+									<li>
+										<h4 class="title-price"><a href="shop-ui-inner.html">Lima-Trujillo</a></h4>
+									</li>
+									<li><span class="gender text-uppercase">5PM</span></li>
+									<li class="pull-right">
+										<ul class="list-inline product-ratings">
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating-selected fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+											<li><i class="rating fa fa-star"></i></li>
+										</ul>
+									</li>
+								</ul>
+								<div class="margin-bottom-10">
+									<span class="title-price margin-right-10">S/.60.00</span>
+									<span class="title-price line-through">S/.95.00</span>
+								</div>
+								<p class="margin-bottom-20">Viaje seguro con los profesionales del transporte terrestre.</p>
+								<ul class="list-inline add-to-wishlist margin-bottom-20">
+									<li class="wishlist-in">
+										<i class="fa fa-heart"></i>
+										<a href="#">Agregar a favorito</a>
+									</li>
+									<li class="compare-in">
+										<i class="fa fa-exchange"></i>
+										<a href="#">Agregar y comparar</a>
+									</li>
+								</ul>
+								<a  href="shop-ui-inner.html" type="button" class="btn-u btn-u-sea-shop">Detalle</a>
+								<button type="button" class="btn-u btn-u-sea-shop">Agregar al carrito</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/end filter resilts-->
+
+			<div class="text-center">
+				<ul class="pagination pagination-v2">
+					<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+					<li><a href="#">1</a></li>
+					<li class="active"><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+				</ul>
+			</div>
+			<!--/end pagination-->
 		</div>
 	</div>
-	<!-- End Wait Block -->
+	<!--/end row-->
+</div>
+<!--/end container-->
+<!--=== End Content Part ===-->
 
-	<!-- JS Global Compulsory -->
- 	<script src="../assets/plugins/jquery/jquery.min.js"></script>
- 	<script src="../assets/plugins/jquery/jquery-migrate.min.js"></script>
- 	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
- 	<!-- JS Implementing Plugins -->
- 	<!--<script src="../assets/plugins/back-to-top.js"></script>
+<!-- Footer Section -->
+<div class="footer g-pt-40 g-pb-40">
+	<div class="container">
+		<div class="g-display-table">
+			<div class="g-display-td g-text-middle page-scroll">
+				<a href="#body" class="footer-logo"><img src="assets/img/logo-light.png" alt="ALT"></a>
+			</div>
+			<div class="g-display-td g-text-middle text-right g-pt-10">&copy; 2017 Todos los derechos reservados <a href="http://turismodias.com">Turismo Diás</a></div>
+		</div>
+	</div>
+</div>
+<!-- End Footer Section -->
+</div>
+<!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+<script src="../assets/plugins/jquery/jquery.min.js"></script>
+<script src="../assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<!--<script src="../assets/plugins/back-to-top.js"></script>
  	<script src="../assets/plugins/smoothScroll.js"></script>-->
- 	<!--<script src="../assets/plugins/noUiSlider/jquery.nouislider.all.min.js"></script>-->
- 	<!--<script src="../assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
- 	<!-- JS Customization -->
- 	<!--<script src="assets/js/custom.js"></script>-->
- 	<!-- JS Page Level -->
- 	<!--<script src="assets/js/shop.app.js"></script>
+<!--<script src="../assets/plugins/noUiSlider/jquery.nouislider.all.min.js"></script>-->
+<!--<script src="../assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
+<!-- JS Customization -->
+<!--<script src="assets/js/custom.js"></script>-->
+<!-- JS Page Level -->
+<script src="../assets/js/one.app.js"></script>
+<!--<script src="assets/js/shop.app.js"></script>
  	<script src="assets/js/plugins/mouse-wheel.js"></script>-->
- 	<!--<script src="assets/js/plugins/style-switcher.js"></script>-->
- 	<!--<script>
- 		jQuery(document).ready(function() {
- 			App.init();
- 			App.initScrollBar();
- 			MouseWheel.initMouseWheel();
- 			StyleSwitcher.initStyleSwitcher();
- 		});
- 	</script>-->
+<!--<script src="assets/js/plugins/style-switcher.js"></script>-->
+<script>
+	jQuery(document).ready(function () {
+		App.init();
+		// App.initScrollBar();
+		// MouseWheel.initMouseWheel();
+		// StyleSwitcher.initStyleSwitcher();
+	});
+</script>
 <!--[if lt IE 9]>
 	<script src="../assets/plugins/respond.js"></script>
 	<script src="../assets/plugins/html5shiv.js"></script>
@@ -610,4 +688,5 @@
 	<![endif]-->
 
 </body>
+
 </html>
