@@ -1,1 +1,12 @@
 /* Add here all your css styles (customizations) */
+.search-tours-title-wrapper {
+    background: #31353e;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.search-tours-col-bg-default {
+    background: #55AA55;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
